@@ -1,0 +1,253 @@
+.webpage{width: 100%;  
+     height: 100%;
+      height: 900px;}
+
+.goibibo{background: none; 
+    border: none;
+font-size: 1.6rem;
+font-weight: bold;
+}
+
+.search-1{width: 27rem;
+    border-radius: 20px;
+    background: none;
+     height: 1.9rem; 
+     border-top-style: rgb(96, 96, 99);
+     border-bottom-style: rgb(96, 96, 99);
+     border-top-style: rgb(96, 96, 99);
+     border-left-style: rgb(96, 96, 99);
+     position: relative;
+     left: 4%;
+     position: relative;
+     padding-left: 3%; 
+     font-weight: bold;
+      font-size: 1rem;}
+
+      .mytrips{ background: none; 
+        margin: 1px;
+        border: none; 
+        font-weight: bold;
+        width: 12%; 
+        height: 100%;
+    position: relative; 
+    bottom:7px;
+    left: 20%;}
+
+      .signup{position: relative; 
+        left: 22%;
+        width: 7%;
+        height: 1.8rem;
+        border-radius: 20px;
+        background-color:white;
+        color:blue;
+        border: 1;
+        border-color: blue;
+        font-size: 1rem;
+        font-weight: bold;
+ }
+
+      .login{position: relative; 
+        border-radius: 20px; 
+        border-color: blue;
+        border:1;
+        width: 7%;
+        height: 1.8rem;
+        background-color: white;
+        color: blue;
+        font-size: 1rem;
+        font-weight: bold;
+    left: 24%;}
+
+    .flights{width: 110%;
+      height: 70px;
+    padding-left: 20px;
+  margin: 10px;
+background: none;
+border-color: blue;
+font-size: 1.4rem;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+font-weight: bold;
+}
+    
+    .hotels{width: 110%;
+    height: 70px;
+  padding-left: 20px;
+  background: none;
+  border-color: blue;
+  font-size: 1.4rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-weight: bold;
+margin: 10px;}
+
+    .trains{width: 110%;
+    height: 70px;
+    background: none;
+    border-color: blue;
+    font-size: 1.4rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: bold;
+  padding-left: 20px;
+margin: 10px;}
+
+    .cabs{width: 110%;
+    height: 70px;
+  padding-left: 20px;
+  background: none;
+  border-color: blue;
+  font-size: 1.4rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+margin: 10px; font-weight: bold;}
+
+    .bus{width: 110%;
+    height: 70px;
+  padding-left: 20px;
+  background: none;
+  border-color: blue;
+  font-size: 1.4rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-weight: bold;
+margin: 10px;}
+
+.paragraph-1{ border-radius: 10px 10px 0px 0px;
+  padding: 10px 10px 10px 30px;
+color: white;
+height: 50%;
+background-color: orange;
+font-weight: bold;}
+
+.paragraph-2{
+color:black;
+padding: 0px 5px 35px 27px;
+font-weight: bold;}
+
+.paragraph-3{
+  border-radius: 10px 10px 0px 0px ;
+color: white;
+height: 55%;
+padding: 25px 15px 15px 30px;
+background-color: orange;
+font-weight: bold;
+}
+
+.paragraph-4{
+  color: black;
+  padding: 0px 5px 35px 27px;
+  font-weight: bold;
+}
+
+.place{size: 2rem;
+  margin-top: 5%;
+  margin: 3%;
+}
+input[type=radio] {
+  height: 1.2rem;
+  width: 1.2rem;
+background: blue;
+}
+
+.where{font-size: 1.3rem;
+  margin: 3%;
+font-weight: bold;}
+
+.location{
+width: 90%; 
+font-size: 1.2rem;
+padding-left: 45px;
+margin: 3%;
+}
+.location:focus{outline: none;}
+.search-1:focus{outline: none;}
+
+.location{border-top-style: hidden;
+border-left-style: hidden;
+border-right-style: hidden;
+background-color: rgb(247, 244, 244);
+border-bottom-style: groove;}
+
+::placeholder{color: rgb(78, 78, 80);}
+
+.checkin{display: inline-block;
+margin: 3%;
+}
+
+.select:focus{outline: non}
+
+.select{border-style: hidden;
+background-color: rgb(247, 244, 244);
+font-weight: bolder;
+font-size: 1.1rem;
+}
+
+.nights{height: 28px;
+  border-radius: 20px;
+  background-color: rgb(207, 191, 177);
+  border-style: hidden;
+  font-weight: bolder;
+width: 160%;}
+
+.guests{border-style: hidden;
+background-color: rgb(247, 244, 244);
+font-weight: bolder;
+font-size: 1.1rem;}
+
+.feedback{width: 15%;
+height: 30px;
+background-color: goldenrod;
+border-radius: 20px;
+color: white;
+border-style: hidden;
+font-weight: bolder;}
+
+.explore{height: 30px;
+width: 15%;
+background-color: turquoise;
+border-style: hidden;
+font-weight: bolder;
+position: relative;
+left: 30%;
+border-radius: 40px;}
+
+.button-1{height:  40px;
+width: 19%;
+margin:-3px;
+font-size: 1.1rem;
+font-weight:bolder;
+border-style: hidden;
+}
+
+.flights:hover{background-color: blueviolet;
+color: white;
+}
+
+.hotels:hover{background-color: blueviolet;
+color: white;
+}
+
+.trains:hover{background-color: blueviolet;
+color: white;
+}
+
+.cabs:hover{background-color: blueviolet;
+color: white;
+}
+
+.bus:hover{background-color: blueviolet;
+color: white;
+}
+
+.button-1:hover{background-color: blueviolet; 
+  color: white;
+}
+
+.signup:hover{background-color: blue;
+color: white;
+}
+
+.login:hover{background-color: blue;
+color: white;}
+

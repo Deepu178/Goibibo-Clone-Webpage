@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<link rel="stylesheet" href="./goibibo.css">
+<body style="overflow-x: hidden;">
+    <div style="margin: 2%;">
+    <div class="webpage">
+        <div>
+            <div>
+                <button class="goibibo"><span style="color: darkgoldenrod;">go</span><span style="color: blueviolet;">ibibo</span></button>
+                <input class="search-1" type="search" name="searchbar" placeholder="Search Hotels">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" style="position: relative; bottom:2px; right:27%;" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                <button class="mytrips"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                  </svg>Manage Booking My Trips</button>
+                <button class="signup">Sign up</button>
+                <button class="login">Log in</button>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div>
+            <div style="display: inline-block; position: absolute; top: 20%;">
+                <button class="flights"><img style="margin-left:-35px; margin-right: 15px; height: 75%;" src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-flight-interface-kiranshastry-solid-kiranshastry-1.png"/>Flights</button>
+                <br>
+                <button class="hotels"><img style="margin-left: -35px; margin-right: 15px; height: 75%;" src="https://img.icons8.com/external-photo3ideastudio-lineal-photo3ideastudio/64/000000/external-hotel-building-photo3ideastudio-lineal-photo3ideastudio.png"/>Hotels</button>
+                <br>
+                <button class="trains"><img style="margin-left: -35px; margin-right: 15px; height: 75%;" src="https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/64/000000/external-train-urban-infrastructure-inipagistudio-mixed-inipagistudio.png"/>Trains</button>
+                <br>
+                <button class="cabs"><img style="margin-left: -40px; margin-right: 15px; height: 75%;" src="https://img.icons8.com/pastel-glyph/64/000000/taxi--v3.png"/>Cabs</button>
+                <br>
+                <button class="bus"><img style="margin-left: -45px; margin-right: 15px; height: 75%;" src="https://img.icons8.com/ios/50/000000/bus.png"/>Bus</button>
+            </div>
+            <div style="display: inline-block; position: absolute; left:18%; top: 32%; ">
+                <div style="height: 130px; box-shadow: 1px 1px 1px 1px gray; border-radius: 10px 10px 10px 10px;">
+                <p class="paragraph-1">Big savings for <br>Bigger Travel Plans</p>
+                <p class="paragraph-2">Get flat 12% off on<br> domestic hotels</p>
+            </div>
+                <br>
+                <br>
+                <div style="height: 130px; box-shadow: 1px 1px 1px 1px gray; border-radius: 10px;">
+                <p class="paragraph-3">Daily Steal Deals</p>
+                <p class="paragraph-4">Get up to 50% off</p>
+                </div>
+            </div>
+            <div style="display: inline-block; position: relative; left: 35%; width: 60%;">
+                <p style="font-size:2rem; position: relative; left: 20%; font-weight: bolder; ">Book Domestic & International Hotels</p>
+                <div style="background-color:rgb(247, 244, 244); border-radius: 10px; box-shadow: 2px 2px 2px 2px gray;">
+                <div style="font-size: 1.5rem; font-weight: bold; margin-left: 15px;" >
+                            <label style="margin-right: 15px;">
+                        <input type="radio" name="Place" >India</label>
+                        <label>
+                            <input type="radio" name="Place">Internationals
+                        </label>
+                </div>
+                <div>
+                    <p class="where">Where</p>
+                    <img style="position: absolute; height: 5%; top: 42%; left: 3%;" src="https://img.icons8.com/ios-filled/50/000000/search--v1.png"/>
+                    <input class="location" type="search" name="searchbar" placeholder="Area, Landmark, Hotel name">
+                </div>
+                <br>
+                <br>
+                <div>
+                    <div class="checkin">
+                        <div>Check-in</div>
+                        <select class="select">
+                            <option>Dec 23, 2021</option>
+                        </select>
+                    </div>
+                    <div class="checkin">
+                        <div>Check-out</div>
+                        <select class="select">
+                        <option>Dec 26, 2021</option>
+                        </select>
+                    </div>
+                    <div class="checkin">
+                    <button class="nights">3 Nights</button>
+                    </div>
+                </div>
+            <div style="padding-bottom: 20px; margin-left: 15px;">
+                <p>Guests & Rooms</p>
+                <select class="guests">
+                    <option>2 Guests in 1 Room</option>
+                    <option>1 Guest in one room</option>
+                </select>
+            </div>
+            </div>
+            </div>
+        </div>
+        <br>
+        <div>
+            <button class="feedback">Feedback</button>
+            <button class="explore">Explore More</button>
+        </div>
+        <br>
+        <br>
+        <div style="margin-left: 10%;">
+            <button class="button-1">Beach Vacations</button>
+            <button class="button-1">Weekend Gateways</button>
+            <button class="button-1">Mountains Calling</button>
+            <button class="button-1">Stay Like Royals</button>
+            <button class="button-1">Indian Piligrimages</button>
+        </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
